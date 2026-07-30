@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="https://files.catbox.moe/9324cf.jpg">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Bebas+Neue&family=Italianno&family=League+Gothic&family=Oswald:wght@200..700&family=Press+Start+2P&family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+       <title>THE MEO</title>
+        <style>
+            body {
+                margin: 0;
+              font-family: 'Press Start 2P', cursive; 
+              background-color: #f5f5f5;
+                background-image:radial-gradient(#878787 1px , transparent 1px);
+                background-size: 20px 20px;
+                
+            }
+            ::selection {
+                background-color: #d63434;
+                color: #ffffff;
+            }
+            .ras-kaml {
+               width: min(90%, 1000px);
+             margin: 100px auto 0;
+             display: flex;
+              align-items: center;
+                align-items: stretch;
+             justify-content: center;
+               gap: 0;
+               color: #ffffff;
+               box-shadow: black 0px 0px 10px;
+                text-shadow: 3px 3px 6px #000000;
+                
+            }
+            .blasa-lwla {
+                background-color: #f5f5f5;
+                text-align: center;
+                border: 5px solid #111111;
+               
+                padding: 10px;
+                border-radius: 0px;
+                flex: 1;
+                min-width: 200px;
+                box-sizing: border-box;
+            }
+            h1.WELCOME {
+               
+                border: 5px solid #111111;
+                background-color: #2a2a2a;
+                margin: 0 0 12px;
+                padding: 10px;
+            }
+            a.firstlinks{
+                text-decoration: none;
+               color: #ffffff;
+                text-shadow: 3px 3px 6px #000000;
+                border: 5px solid #111111;
+                background-color: #2a2a2a;
+                padding: 10px;
+                margin: 0 4px;
+                display: inline-block;
+            }
+            a.firstlinks:hover {
+                color:#754040;
+                transition: transform 0.2s;
+                transform: scale(1.08);
+            }
+            a.firstlinks:active {
+                color:#754040;
+                transition: transform 0.2s;
+                transform: scale(1.08);
+            }
+                
+            .logo {
+                width: 150px;
+                height: 150px;
+                background-color:black;
+                border: 5px solid #111111;  
+                border-left: none;
+                border-radius: 0px;
+                overflow: hidden;
+                flex: none;
+            }
+            .logo img {
+                display: block;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+               
+            }
+            .logo img:hover {
+                transform:rotate(360deg);
+                transition: transform 0.9s;
+            }
+            .linkbox {
+                margin: 0 auto 0;
+                width: min(90%, 1000px);
+                box-sizing: border-box;
+                border: 5px solid #111111;
+                border-top: none;
+                padding: 15px;
+                min-height: 230px;
+                background-image: url('https://i.pinimg.com/736x/fc/f8/f1/fcf8f1c96e61d6f10aa40ba4d6b0b05f.jpg');
+                background-size: cover;
+                background-position: center;
+                text-align: left;
+                color: #ffffff;
+                text-shadow: 3px 3px 6px #000000;
+                box-shadow: black 0px 0px 10px;
+            }
+             .numb-links {
+                text-align: right;
+                margin-top: 100px;
+                font-size: 40px;
+                margin-right: 25px;
+                margin-bottom: 40px;
+                
+
+            }
+            .MEO {
+                font-size: 30px;
+            }
+            a.numb {
+                text-decoration: none;
+                text-align: right;
+                display: inline-block;
+                margin-left: 25px;
+                color:#ffffff;
+                text-shadow: 3px 3px 6px #000000;
+            }
+            a.numb:hover {
+                color: #754040;
+                transition: transform 0.4s;
+                transform: scale(1.08);
+            }
+            a.numb:active {
+                color: #754040;
+                transition: transform 0.4s;
+                transform: scale(1.08);
+            }
+            .me-kaml {
+                width: min(90%, 1000px);
+                margin: 0 auto 0px;
+                display: flex;  
+                gap: 25px;
+                padding: 30px;
+                border: 5px solid #111111;
+                border-top: none;
+                border-bottom: none;
+                background-color:#f5f5f5;
+                background-size: cover;
+                background-position: center;
+                box-sizing: border-box;
+                text-align: left;
+                color: #000000;
+                text-shadow: 1px 1px 2px #00000066;
+                
+            }
+            .me-title {
+                color: #754040;
+                margin: 0 0 15px;
+                text-shadow: 2px 2px 3px rgba(0,0,0,0.4);
+            }
+            .me-badge {
+                display: block;
+                color: #754040;
+                margin-bottom: 12px;
+                font-size: 14px;
+            }
+            .me-small-image {
+                width: 60px;
+                height: 60px;
+                
+                object-fit: cover;
+                padding: 20px;
+                display: inline-block;
+                
+                
+            }
+            .me-image-wrap img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border: 5px solid #111111;
+                box-shadow: inset 0 0 0 3px #000000;
+            }
+           .me-small-image:hover {
+                transform: scale(1.18);
+                transition: transform 0.4s;
+            }
+            .my-socials {
+                border: 5px solid #111111;   
+                background-image:url('https://i.pinimg.com/originals/94/15/1e/94151e30305ab125d1fcf23cbf4db62b.gif');  
+                background-size: cover;
+                background-position: center;
+            }
+            .ihtimamat {
+                width: min(90%, 1000px);
+                margin: 0 auto 0px;
+                box-sizing: border-box;
+                display: flex;
+                padding: 20px;
+                border: 5px solid #111111;
+                border-top: none;
+                border-bottom: none;
+                background-color: #f5f5f5;
+                color: #000000;
+                text-shadow: 1px 1px 2px #00000066;
+            }
+            .jdid {
+                width: 200px;
+                height: 200px;
+                position: fixed;
+                bottom: 0;
+            }
+            .jdid2 {
+                position: absolute;
+                width: 100px;
+                height: 100px;
+                top: 20px;
+                left: 1300px;
+            }
+            /* ---------------------------------Comment section styles -----------------------------------------*/
+            .comment {
+                width: min(90%, 1000px);
+                margin: 0 auto 50px;
+                box-sizing: border-box;
+                padding: 20px;
+                border: 5px solid #111111;
+                border-top: none;
+                background-color: #f5f5f5;
+                color: #000000;
+                text-shadow: 1px 1px 2px #00000066;
+            }
+            .aploading {
+                border: 5px solid #111111;
+                margin: 15px;
+                padding: 20px;
+
+             }
+            label {
+                display: block;
+                margin-bottom: 15px;
+                color:#754040;
+            }
+        
+            [type="text"] {
+                font-family: 'Press Start 2P',cursive ;
+                width: 100%;                                                                                                                                                                                                                                                                                                               
+                 padding: 10px;
+                 box-sizing: border-box; 
+                 border: 5px solid #111111; 
+                  margin-bottom: 10px;
+
+            }
+            
+            [value="Submit"] {
+                background-color: #754040;
+                color: #ffffff;
+                width: 20%;
+                border: 5px solid #111111;
+                padding: 10px 20px;
+                cursor: pointer;
+                display: inline-block;
+                margin :auto 350px;
+                font-family: 'Press Start 2P', cursive;
+                
+            }
+            [value="Submit"]:hover {
+                transform: scale(1.08) ;
+                transition: transform 0.4s;
+                background-color:#966262;
+
+            }
+            [type="text"]:focus { 
+                border:5px solid #754040;
+                background-color:#ce9f9f;
+
+            }
+            .ew , .yaa {
+                display: flex;}
+        </style>
+    </head>
+    <body>
+        <div class="ras-kaml">
+           
+            <div class="blasa-lwla">
+                <h1 class="WELCOME">WELCOME</h1>
+                <a class="firstlinks" href="index.html">#ME</a>
+               
+                <a class="firstlinks" href="wife.html">#WIFE</a>
+            </div>
+             <a class="logo" href="index.html"><img src="https://i.pinimg.com/1200x/e7/15/6e/e7156ea6ede1d7d638ccbf159f2637a7.jpg" alt="Logo"></a>
+        </div>
+        <div class="linkbox">
+
+        <p><span style="font-size: 40px;" >YOOOOOO</span></p>
+        <h1 class="MEO"> <span style="color:#754040">MEO</span> FIRST WEB <span style="color:#754040">HERE!</span></h1>
+        <div class="numb-links">
+            <a class="numb" href="index.html" >  01.</a>
+            <a class="numb" href="02.html" >  02.</a>
+            <a class="numb" href="03.html" >  03.</a>
+        </div>
+
+        </div>
+        <div class="me-kaml">
+            <div class="me-image-wrap">
+                <img src="https://i.pinimg.com/1200x/bd/c8/01/bdc801e689fe2be352c76fd6d364aeea.jpg" alt="Me">
+            </div>
+            <div class="me-content">
+                <h1 class="me-title">IM MEO</h1>
+                <span class="me-badge">he/him · 18 yrs . intp</span>
+                <p>Hi! You can call me Mouad or Meo.</p>
+                <p>Most of the time I am on Discord with my love,  <a href="wife.html" style="color:#dd7597">Nahid</a>.</p>
+                <p>I love talking about anything, and I enjoy every music, games, and shows even manhawa,manga .</p>
+                <p>The only thing I truly cherish more than everything else is my <a href="wife.html" style="color:#dd7597">wife</a>.</p>
+                <h4 style="color:#754040">FIND ME -:</h4>
+                <div class="my-socials">
+                <a href="https://open.spotify.com/user/312izvuzzcbvvrdyaxz6uurg2epi?si=ae12ba071b6a473c" target="_blank"><img class="me-small-image" src="https://files.catbox.moe/ds2r3j.png" alt="small icon"></a>
+               <a href="https://www.instagram.com/ohxez/" target="_blank"><img class="me-small-image" src="https://files.catbox.moe/7qvb04.png" alt="small icon"></a>
+               <a href="https://www.pinterest.com/ohxezw/_saved/" target="_blank"><img class="me-small-image" src="https://files.catbox.moe/mz1kyp.png" alt="small icon"></a>
+               <a href="https://www.tiktok.com/@.eohy" target="_blank"><img class="me-small-image" src="https://files.catbox.moe/bltt1h.png" alt="small icon"></a>
+                </div>
+            </div>
+            
+        </div>
+        <div class="ihtimamat">
+             <div >
+               <div class="yaa"><h2 style="color:#754040;" >YAA!</h2><img src="https://files.catbox.moe/5g3inh.png" alt="yaa" style="width: 40px; height: 40px; padding: 5px;"></div>
+                <p>Pets . Art .Math . Anime . Reading manhwa . Night core . rain . tea . black & white . indie games </p>
+             </div>
+             <div >
+              <div class="ew">  <h2 style="color:#754040;" >EW!</h2><img src="https://files.catbox.moe/w4toos.png" alt="ew" style="width: 40px; height: 40px; padding: 5px;"></div>
+               <p> Lies . Racism . Broken promises . Being ignored . School . Love triangles </p>
+            </div>
+        </div>
+
+        <img class="jdid" src="https://files.catbox.moe/0u4xwy.png">
+        <img class="jdid2" src="https://files.catbox.moe/fsigtb.png">
+
+        <div class="comment">
+          <div class="aploading">
+            <label >Name:</label>
+            <input type="text" class="name" >
+            <label >Leave a comment:</label>
+            <input type="text" class="comment1" >
+            <input type="submit" value="Submit" >
+          </div>
+        </div>
+
+        
+    </body>
+</html>

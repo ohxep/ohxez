@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html>
+  
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="icon" href="https://files.catbox.moe/9324cf.jpg">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Bebas+Neue&family=Italianno&family=League+Gothic&family=Oswald:wght@200..700&family=Press+Start+2P&family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+        <title>THE MEO</title>
+        
+        <style>
+            body {
+                margin: 0;
+              font-family: 'Press Start 2P', cursive; 
+                background-color: #ebe5de;
+                background-image:radial-gradient(#bfbdbb 1px , transparent 1px);
+                background-size: 20px 20px;
+                
+                
+            }
+             ::selection {
+                background-color: #a58e8e;
+                color: #ffffff;
+            }
+            .ras-kaml {
+               width: min(90%, 1000px);
+             margin: 100px auto 0;
+             display: flex;
+              align-items: center;
+                align-items: stretch;
+             justify-content: center;
+               gap: 0;
+               color: #ffffff;
+               box-shadow: black 0px 0px 10px;
+                text-shadow: 3px 3px 6px #000000
+                
+            }
+            .blasa-lwla {
+                background-color: #fcf7f0;
+                text-align: center;
+                border: 5px solid #292a2e;
+               
+                padding: 10px;
+                border-radius: 0px;
+                flex: 1;
+                min-width: 200px;
+                box-sizing: border-box;
+            }
+            h1.WELCOME {
+               
+                border: 5px solid #292a2e;
+                background-color: #44464d;
+                margin: 0 0 12px;
+                padding: 10px;
+            }
+            a.firstlinks{
+                text-decoration: none;
+               color: #ffffff;
+                text-shadow: 3px 3px 6px #000000;
+                border: 5px solid #292a2e;
+                background-color: #44464d;
+                padding: 10px;
+                margin: 0 4px;
+                display: inline-block;
+            }
+            a.firstlinks:hover {
+                color:#e1848b;
+                transition: transform 0.2s;
+                transform: scale(1.08);
+            }
+            a.firstlinks:active {
+                color:#eb3b37;
+                transition: transform 0.2s;
+                transform: scale(1.08);
+            }
+                
+            .logo {
+                width: 150px;
+                height: 150px;
+                background-color:#292a2e;
+                border: 5px solid #292a2e;
+                border-left: none;
+                border-radius: 0px;
+                overflow: hidden;
+                flex: none;
+            }
+            .logo img {
+                display: block;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+               
+            }
+            .logo img:hover {
+                transform:
+                rotate(360deg);
+                transition: transform 0.9s;
+            }
+            .linkbox {
+                margin: 0 auto 0 ;
+                width: min(90%, 1000px);
+                box-sizing: border-box;
+                border: 5px solid #292a2e;
+                border-top: none;
+                padding: 15px;
+                min-height: 230px;
+                background-image: url('https://i.pinimg.com/1200x/d7/c5/28/d7c528401fede6940cfc2463bfdf0321.jpg');
+                background-size: cover;
+                background-position: center;
+                text-align: left;
+                color: #ffffff;
+                text-shadow: 3px 3px 6px #000000;
+                box-shadow: black 0px 0px 10px;
+            }
+             .numb-links {
+                text-align: right;
+                margin-top: 100px;
+                font-size: 40px;
+                margin-right: 25px;
+                margin-bottom: 40px;
+                
+
+            }
+            .MEO {
+                font-size: 30px;
+            }
+            a.numb {
+                text-decoration: none;
+                text-align: right;
+                display: inline-block;
+                margin-left: 25px;
+                color:#ffffff;
+                text-shadow: 3px 3px 6px #000000;
+            }
+            a.numb:hover {
+                color: #e1848b;
+                transition: transform 0.4s;
+                transform: scale(1.08);
+            }
+            a.numb:active {
+                color: #eb3b37;
+                transition: transform 0.4s;
+                transform: scale(1.08);
+            }
+            
+            .blasa02 { 
+                width: min(90% ,1000px) ;
+                margin: 0 auto 0  ;
+                box-sizing: border-box;
+                border: 5px solid #6e7577 ;
+                border-top: none ;
+                padding: 15px;
+                background-color: #fcf7f0;
+            }
+            .collection {
+             padding: 15px;
+             background-image: url(https://i.pinimg.com/originals/93/08/1e/93081e266f7f0b20778d2736978b2e84.gif);
+             background-position:center;
+             background-size: cover;
+             color: #ffffff;
+             text-shadow: 3px 3px 6px #000000;
+              border: 5px solid #8f5c4bE6;
+              margin: 20px auto;
+             width: 50%;
+             box-sizing: border-box;
+             text-align: center;
+              gap: 15px;
+             }
+            .ikhtisarat-02 {
+                border: #8f5c4bE6 5px solid;
+                background-image: url(https://i.pinimg.com/originals/e9/52/ed/e952eddc2ac4ad78a95c7b9ca916cf4e.gif);
+                background-position:center;
+                background-size: cover;
+                position:sticky;
+                top: -20px;
+            }
+       
+             .ikhtisarat {
+                text-decoration: none;
+               color: #ffffff;
+                text-shadow: 3px 3px 6px #000000;
+                border: 5px solid #8f5c4bE6;
+                background-color: #c6a27aCC;
+                padding: 10px;
+                margin: 20px 20px;
+                display: inline-block;
+                
+                
+                
+            }
+            .ikhtisarat:hover {
+                transition: transform 0.2s;
+                transform: scale(1.08);
+
+
+
+            }
+            .head02 {
+                display: flex;
+                text-shadow: 2px 2px 6px #000000;
+                color: #eb3b38;
+                padding-top: 15px;
+                border-bottom: 7px solid ;
+                border-image: linear-gradient(to right, #eb3b38 , transparent) 1;
+            }
+            .count {
+                size: 15px;
+                padding-top: 20px;
+                padding-left: 10px;
+                color: #6cb3b5;
+                text-shadow: none;
+
+            }
+            .anime {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+            .manhawa {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+            .tvseries {
+               display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between; 
+            }
+            .cartoons {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+            .kaml02 {
+            padding:15px;
+            
+            }
+            
+            .tsawr02 {
+                    height: 250px;
+                    width: 190px;
+                    border:4px outset #000000 ;
+                    box-shadow: #000000;
+                    background-position:center;
+                    background-size: cover;
+                    box-shadow: black 0px 0px 10px;
+            }
+            .tsawr02:hover {
+                transform: scale(1.1)
+                rotate(2deg)
+                ;
+                transition:transform 0.6s;
+            }
+            .ichigo {
+                position: absolute;
+                top: 800px;
+                right: 410px;
+                width: 100px;
+                height: auto;
+                rotate: 20deg;
+            }
+            
+            
+           </style>
+       </head>
+    <body>
+        <div class="ras-kaml">
+           
+            <div class="blasa-lwla">
+                <h1 class="WELCOME">WELCOME</h1>
+                <a class="firstlinks" href="index.html">#ME</a>
+               
+                <a class="firstlinks" href="wife.html">#WIFE</a>
+            </div>
+             <a class="logo" href="index.html"><img src="https://files.catbox.moe/2p2tbe.png" alt="Logo"></a>
+        </div>
+        <div class="linkbox">
+
+          <p><span style="font-size: 40px;" >YOOOOOO</span></p>
+          <h1 class="MEO"> <span style="color:#e7d569">MEO</span> FIRST WEB <span style="color:#e7d569">HERE!</span></h1>
+          <div class="numb-links">
+            <a class="numb" href="index.html" >  01.</a>
+            <a class="numb" href="02.html" >  02.</a>
+            <a class="numb" href="03.html" >  03.</a>
+         </div>
+        </div>
+     <div class="blasa02">
+
+        <div class="collection">
+            <h1>MY COLLECTION</h1>
+            
+        </div>
+
+        <div class="ikhtisarat-02" >
+            <a class="ikhtisarat" href="#anime">anime</a>
+            <a class="ikhtisarat" href="#manhawa">manhawa & manga </a>
+            <a class="ikhtisarat" href="#tvseries">tv series</a>
+            <a class="ikhtisarat" href="#cartoons">cartoons</a>
+        </div>
+        <img class="ichigo" src="https://files.catbox.moe/si62j5.png" alt="ichigo">
+
+       <div id="anime" class="head02"> <h1 class="header02"> -ANIME </h1><span class="count">16 tapes</span></div>
+
+
+        <!--===========HNA ANIMES==================-->
+
+
+
+        <div  class="anime">
+          <div class="kaml02">
+            <div class="tsawr02" style="background-image: url(https://i.pinimg.com/1200x/37/71/b5/3771b58bcf16d94bc8793da49948fb13.jpg);" >
+            </div>
+            <div class="name02">
+               <p> re:zero</p>
+            </div>
+          </div>
+          <div class="kaml02">
+            <div class="tsawr02" style="background-image: url(https://i.pinimg.com/1200x/15/f3/34/15f334419cadeb2346df2b4b710b0c25.jpg);" >
+            </div>
+            <div class="name02">
+             <p>cyberpunk</p>
+            </div>
+          </div>
+          <div class="kaml02">
+            <div class="tsawr02" style="background-image: url(https://i.pinimg.com/1200x/62/b9/4c/62b94c7d85309d5cbd311aba22221284.jpg);" >
+            </div>
+            <div class="name02">
+            <p>tokyo ghoule</p>
+            </div>
+          </div>
+          <div class="kaml02">
+            <div class="tsawr02" style="background-image: url(https://i.pinimg.com/736x/88/d2/c8/88d2c8dc0190c6250098745147a8a350.jpg);" >
+
+            </div>
+            <div class="name02">
+            <p>H x H</p>
+            </div>
+         </div>
+         <div class="kaml02">
+            <div class="tsawr02" style="background-image: url(https://i.pinimg.com/736x/23/e1/6a/23e16a672a73afbd05f26c2543dd21cb.jpg);" >
+
+            </div>
+            <div class="name02">
+            <p>Call of <br>the Night</p>
+            </div>
+         </div>
+         <div class="kaml02">
+            <div class="tsawr02" style="background-image: url(https://i.pinimg.com/1200x/d2/2f/9d/d22f9dce71b02d3982f7a95502c20534.jpg);" >
+
+            </div>
+            <div class="name02">
+             <p>G T O </p>
+            </div>
+         </div>
+         <div class="kaml02">
+            <div class="tsawr02" style="background-image: url(https://i.pinimg.com/1200x/a3/86/24/a38624b5dabd66890844cb35bbae7232.jpg);" >
+
+            </div> 
+            <div class="name02">
+            <p>viland saga</p>
+            </div>
+         </div>
+         <div class="kaml02">
+            <div class="tsawr02" style="background-image: url(https://i.pinimg.com/1200x/89/f4/40/89f440e5a3272add9cb78586f89b0a12.jpg);" >
+
+            </div>
+            <div class="name02">
+            <p>Dr.stone</p>
+            </div>
+         </div>
+         <div class="kaml02">
+            <div class="tsawr02" style="background-image: url(https://i.pinimg.com/736x/b5/76/e2/b576e2cc32d762b7182caaa56717d010.jpg);" >
+
+            </div>
+            <div class="name02">
+             <p>kaiji</p>
+            </div>
+         </div>
+         <div class="kaml02">
+            <div class="tsawr02" style="background-image: url(https://i.pinimg.com/736x/4c/c8/f7/4cc8f7e8fccfcbf34b437fc3b6820c31.jpg);" >
+
+            </div>
+            <div class="name02">
+             <p>bleach</p>
+            </div>
+         </div>
+         <div class="kaml02">
+            <div class="tsawr02" style="background-image: url(https://i.pinimg.com/736x/3c/54/77/3c5477990db4e3580a0182a0fab854eb.jpg);" >
+          
+            </div>
+            <div class="name02">
+                <p>Bocchi the<br> rock</p>
+
+            </div>
+         </div>
+         <div class="kaml02">
+            <div class="tsawr02" style="background-image: url(https://i.pinimg.com/1200x/69/5f/61/695f6102d28d24408ba7e0663339f595.jpg);" >
+
+            </div>
+            <div class="name02">
+                <p>cowboy Bebop</p>
+
+            </div>
+         </div>
+         <div class="kaml02">
+            <div class="tsawr02" style="background-image: url(https://i.pinimg.com/736x/0f/95/57/0f9557942553bb14eb72d1a85d48195e.jpg);" >
+
+            </div>
+            <div class="name02">
+                <p>prison school</p>
+
+            </div>
+         </div>
+         <div class="kaml02">
+            <div class="tsawr02" style="background-image: url(https://i.pinimg.com/736x/df/69/8f/df698f210acf4f0fd9f60ed1acd80ef9.jpg);" >
+
+            </div>
+            <div class="name02">
+                <p>my dress<br> up darling </p>
+
+            </div>
+         </div>
+         <div class="kaml02">
+            <div class="tsawr02" style="background-image: url(https://i.pinimg.com/1200x/22/8e/79/228e791a8eb063b26d7096f127317357.jpg);" >
+
+            </div>
+            <div class="name02">
+                <p>nana</p>
+
+            </div>
+         </div>
+         <div class="kaml02">
+            <div class="tsawr02" style="background-image: url(https://i.pinimg.com/736x/b4/ef/31/b4ef31d64e7cec7ee9b3ee5b8239b3cd.jpg);" >
+
+            </div>
+            <div class="name02">
+                <p>another</p>
+
+            </div>
+         </div>
+        </div>
+        <div id="manhawa" class="head02"> <h1 class="header02"> -MANHAWA & MANGA </h1><span class="count">12 tapes</span></div>
+
+
+
+
+        <!--===========MANHAWA&MANGA =================-->
+
+
+
+
+        <div  class="manhawa">
+          <div class="kaml02">
+            <div class="tsawr02" style="background-image: url(https://i.pinimg.com/736x/8b/4a/16/8b4a16a16301e0c3e67d483fe18c8dcd.jpg);" >
+
+            </div>
+            <div class="name02">
+                <p>Fight Class 3</p>
+            
+            </div>
+         </div>
+         <div class="kaml02">
+            <div class="tsawr02" style="background-image: url(https://i.pinimg.com/1200x/46/17/c5/4617c54fa293c8231b9ecaa0a9e58b78.jpg);" >
+
+            </div>
+            <div class="name02">
+                <p>Omniscient<br>Reader's<br> Viewpoint</p>
+
+            </div>
+         </div>
+         <div class="kaml02">
+            <div class="tsawr02" style="background-image: url(https://i.pinimg.com/1200x/d5/ee/c8/d5eec808b74b13a9348488dcfd0c253e.jpg);" >
+
+            </div>
+            <div class="name02">
+                <p>Vagabond</p>
+
+            </div>
+         </div>
+         <div class="kaml02">
+            <div class="tsawr02" style="background-image: url(https://i.pinimg.com/736x/4f/2a/3f/4f2a3f5b888ee6dbd8bb099f7ad84b80.jpg);" >
+
+            </div>
+            <div class="name02">
+                <p>Homunculus</p>
+
+            </div>
+         </div>
+         <div class="kaml02">
+            <div class="tsawr02" style="background-image: url(https://i.pinimg.com/736x/23/13/88/231388e6e21838f7a9ede2768331dfd0.jpg);" >
+
+            </div>
+            <div class="name02">
+                <p>The Greatest <br>Estate<br> Developer</p>
+
+            </div>
+         </div>
+         <div class="kaml02">
+            <div class="tsawr02" style="background-image: url(https://i.pinimg.com/736x/c2/88/71/c288718c46f815060d8cfff4d479e4d1.jpg);" >
+
+            </div>
+            <div class="name02">
+                <p>Return of <br>the Mount<br>Hua Sect</p>
+
+            </div>
+         </div>
+         <div class="kaml02">
+            <div class="tsawr02" style="background-image: url(https://i.pinimg.com/736x/10/81/1e/10811e84587e17e26330d73552a138c5.jpg);" >
+
+            </div>
+            <div class="name02">
+                <p>Magic Emperor</p>
+
+            </div>
+         </div>
+         <div class="kaml02">
+            <div class="tsawr02" style="background-image: url(https://i.pinimg.com/736x/d8/73/b1/d873b1262c5551856cb6cefe3bfe3c24.jpg);" >
+
+            </div>
+            <div class="name02">
+                <p>Breserk</p>
+
+            </div>
+         </div>
+         <div class="kaml02">
+            <div class="tsawr02" style="background-image: url(https://i.pinimg.com/736x/ac/35/a4/ac35a4c506bd0c40b4715b00ed81936b.jpg);" >
+
+            </div>
+            <div class="name02">
+                <p>Veil</p>
+
+            </div>
+         </div>
+         <div class="kaml02">
+            <div class="tsawr02" style="background-image: url(https://i.pinimg.com/736x/cf/c6/17/cfc617f7247162ba9ab4f134b4bc0bd7.jpg);" >
+
+            </div>
+            <div class="name02">
+                <p>Reverend<br> Insanity</p>
+
+            </div>
+         </div>
+         <div class="kaml02">
+            <div class="tsawr02" style="background-image: url(https://i.pinimg.com/1200x/93/41/8c/93418c765be508de9b7017ac9b622f50.jpg);" >
+
+            </div>
+            <div class="name02">
+                <p>20th century <br> boys</p>
+
+            </div>
+          </div>
+          <div class="kaml02">
+            <div class="tsawr02" style="background-image: url(https://i.pinimg.com/736x/d9/91/5f/d9915f8ae362d53e274aeba17f95ad15.jpg);" >
+
+            </div>
+            <div class="name02">
+                <p>the horizon</p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+        <!--=================tv series================-->
+
+
+
+
+        <div id="tvseries" class="head02"> <h1 class="header02"> -TV SERIES</h1><span class="count">3 tapes</span></div>
+        <div class="tvseries">
+          <div class="kaml02">
+            <div class="tsawr02" style="background-image: url(https://i.pinimg.com/736x/4b/37/2a/4b372a7a4d1036f6d30dfb305aaefd7b.jpg);" >
+
+            </div>
+            <div class="name02">
+                <p>the mentalist</p>
+            </div>
+          </div>
+          <div class="kaml02">
+            <div class="tsawr02" style="background-image: url(https://i.pinimg.com/736x/d7/24/8c/d7248c091fb24ba5a3c56ee2fbaf48df.jpg);" >
+
+            </div>
+            <div class="name02">
+                <p>prison break</p>
+            </div>
+          </div>
+          <div class="kaml02">
+            <div class="tsawr02" style="background-image: url(https://i.pinimg.com/736x/dc/17/3e/dc173ec619ddbe58e9fefdb6dab5ce8f.jpg);" >
+
+            </div>
+            <div class="name02">
+                <p>breaking bad</p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <!--====================== cartoons ===========-->
+
+
+
+
+
+        <div id="cartoons" class="head02"> <h1 class="header02"> -CARTOONS </h1><span class="count">8 tapse</span></div>
+        <div class="cartoons">
+          <div class="kaml02">
+            <div class="tsawr02" style="background-image: url(https://i.pinimg.com/736x/ff/e0/21/ffe0219801591d4df551314a99f4ee99.jpg);" >
+
+            </div>
+            <div class="name02">
+                <p>adventure time</p>
+            </div>
+          </div>
+          <div class="kaml02">
+            <div class="tsawr02" style="background-image: url(https://i.pinimg.com/736x/05/9c/82/059c82af07c36c6e45ea157e1aa206d3.jpg);" >
+
+            </div>
+            <div class="name02">
+                <p>scott pilgrim</p>
+            </div>
+          </div>
+          <div class="kaml02">
+            <div class="tsawr02" style="background-image: url(https://i.pinimg.com/736x/17/a3/05/17a3052181d19ad1432741f72335c8dc.jpg);" >
+
+            </div>
+            <div class="name02">
+                <p>gumball</p>
+            </div>
+          </div>
+          <div class="kaml02">
+            <div class="tsawr02" style="background-image: url(https://i.pinimg.com/736x/13/4b/6a/134b6a226fa2b99825a6ad2447901255.jpg);" >
+
+            </div>
+            <div class="name02">
+                <p>clarence</p>
+            </div>
+          </div>
+          <div class="kaml02">
+            <div class="tsawr02" style="background-image: url(https://i.pinimg.com/736x/a6/c8/af/a6c8afc26b4acf0be3b61441f3c92bd0.jpg);" >
+
+            </div>
+            <div class="name02">
+                <p>regular show</p>
+            </div>
+          </div>
+          <div class="kaml02">
+            <div class="tsawr02" style="background-image: url(https://i.pinimg.com/1200x/bb/3e/76/bb3e76711359b8e55ec50b79466a8f76.jpg);" >
+
+            </div>
+            <div class="name02">
+                <p>steven universe</p>
+            </div>
+          </div>
+          <div class="kaml02">
+            <div class="tsawr02" style="background-image: url(https://i.pinimg.com/736x/7e/b8/b8/7eb8b83762eb286e4d14b42938a72fe9.jpg);" >
+
+            </div>
+            <div class="name02">
+                <p>teen titans</p>
+            </div>
+          </div>
+          <div class="kaml02">
+            <div class="tsawr02" style="background-image: url(https://i.pinimg.com/736x/66/a2/75/66a2751d18065b8e7f9973c8eb8f91b2.jpg);" >
+
+            </div>
+            <div class="name02">
+                <p>over THE <br> garden wall</p>
+            </div>
+          </div>
+
+        </div>
+     </div>
+    </body>
+</html>
